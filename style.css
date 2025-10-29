@@ -1,0 +1,146 @@
+/* ===== Global Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #001b29;
+  color: #fff;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* ===== Header ===== */
+header {
+  padding: 50px 10%;
+  background: linear-gradient(120deg, #001b29, #003049);
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0ef;
+  margin-bottom: 15px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #0ef;
+}
+
+header h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+
+/* ===== Navigation ===== */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 15px;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  border-color: #0ef;
+  color: #0ef;
+}
+
+/* ===== Sections ===== */
+section {
+  padding: 80px 10%;
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #0ef;
+  margin-bottom: 20px;
+}
+
+section p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+/* ===== Projects ===== */
+.project {
+  background: rgba(255, 255, 255, 0.05);
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  transition: 0.3s;
+}
+
+.project:hover {
+  background: rgba(0, 238, 255, 0.2);
+}
+
+/* ===== Skills ===== */
+.skills-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skills-list li {
+  background: #0ef;
+  color: #001b29;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+/* ===== Contact ===== */
+.contact-links a {
+  display: inline-block;
+  margin: 10px 15px;
+  padding: 10px 20px;
+  color: #001b29;
+  background: #0ef;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact-links a:hover {
+  box-shadow: 0 0 15px #0ef;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #000a12;
+  padding: 20px;
+  font-size: 14px;
+  color: #aaa;
+}
